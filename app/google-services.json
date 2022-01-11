@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577100223110",
+    "firebase_url": "https://fir-auth-461eb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-auth-461eb",
+    "storage_bucket": "fir-auth-461eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577100223110:android:e7210b01213b6f9cee3707",
+        "android_client_info": {
+          "package_name": "com.example.nutrident4mom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577100223110-qllu4hipfsqjb7nml2cbuehdjueig8l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXTJtUGNetNCGgeVqOR80joV8kkDjzonY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577100223110-qllu4hipfsqjb7nml2cbuehdjueig8l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label_pregnancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/pregnancy_trimester"
+        android:textColor="#574B4B"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgTrimester"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/label_pregnancy"
+        app:layout_constraintStart_toStartOf="@+id/label_pregnancy"
+        app:layout_constraintTop_toBottomOf="@+id/label_pregnancy">
+
+        <RadioButton
+            android:id="@+id/rbFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first" />
+
+        <RadioButton
+            android:id="@+id/rbSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second" />
+
+        <RadioButton
+            android:id="@+id/rbThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textColor="#574B4B"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/what_s_your_height"
+        app:layout_constraintEnd_toEndOf="@+id/rgTrimester"
+        app:layout_constraintStart_toStartOf="@+id/rgTrimester"
+        app:layout_constraintTop_toBottomOf="@+id/rgTrimester" />
+
+    <EditText
+        android:id="@+id/input_user_height"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/_170_0cm"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_circle_shape"
+        android:layout_width="260dp"
+
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="@+id/input_user_height"
+        app:layout_constraintStart_toStartOf="@+id/input_user_height"
+        app:layout_constraintTop_toBottomOf="@+id/input_user_height" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
