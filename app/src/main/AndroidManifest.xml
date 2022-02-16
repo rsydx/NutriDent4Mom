@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nutrident4mom">
-    <uses-feature android:name="android.hardware.camera2"/>
+
+    <uses-feature android:name="android.hardware.camera2" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,44 +14,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<!--        <activity android:name=".login.SplashActivity">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-        <activity android:name=".login.LoginActivity"
-            android:label="signin"
-            android:exported="true">
+        <activity
+            android:name=".content"
+            android:exported="false"
+            android:label="@string/title_activity_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name=".login.SplashActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true"
+            android:label="signin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login.RegisterActivity"
-            android:label="register"/>
-        <activity android:name=".login.ResetPasswordActivity"
-            android:label="reset"/>
-        <activity android:name=".main.MainActivity"
-            android:label="main"/>
-        <activity android:name=".loginFirstTimeUserInfo.InfoActivity_1"
-            android:label="info_collection_1"/>
-        <activity android:name=".loginFirstTimeUserInfo.InfoActivity_2"
-            android:label="info_collection_2"/>
-<!--        <activity android:name=".addMeal.UserCustomizeActivity"-->
-<!--            android:label="custom_food"/>-->
-<!--        <activity android:name=".userSetting.UserActivity"-->
-<!--            android:label="user_setting"/>-->
-<!--        <activity android:name=".userSetting.MyProfileActivity"-->
-<!--            android:label="profile"/>-->
-<!--        <activity android:name=".userSetting.MyFoodList"-->
-<!--            android:label="MyFoodList"/>-->
-<!--        <activity android:name=".main.ReportActivity"-->
-<!--            android:label="report"/>-->
-<!--        <activity android:name=".addMeal.ManuallyInputActivity"-->
-<!--            android:label="Manually_input"/>-->
-<!--        <activity android:name=".addMeal.FoodDisplayActivity"-->
-<!--            android:label="display_food"/>-->
+        <activity
+            android:name=".login.RegisterActivity"
+            android:label="register" />
+        <activity
+            android:name=".login.ResetPasswordActivity"
+            android:label="reset" />
+        <activity
+            android:name=".loginFirstTimeUserInfo.InfoActivity_1"
+            android:label="info_collection_1" />
+        <activity
+            android:name=".loginFirstTimeUserInfo.InfoActivity_2"
+            android:label="info_collection_2" />
+        <activity android:name=".main.ContentActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
