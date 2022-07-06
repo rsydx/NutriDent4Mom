@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.AddVideoActivity"
+    android:padding="10dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundcolor"
+        android:hint="Enter Video Title"
+        android:inputType="textPersonName|textCapCharacters"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/pickVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoView"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/backgroundcolor"
+        android:text="Select Video"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pickVideo"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Upload Video"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
