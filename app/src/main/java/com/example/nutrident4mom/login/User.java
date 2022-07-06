@@ -3,6 +3,10 @@ package com.example.nutrident4mom.login;
 
 public class User {
 
+    public String getUserID() {
+        return userID;
+    }
+
     public String userID;
     public String notFirstTime;
     public String username,email,password,confirm_password;

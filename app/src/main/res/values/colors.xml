@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#55AFA7</color>
+    <color name="colorPrimary">#273152</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorMint">#352929</color>
     <color name="colorGrey">#d8e3e7</color>
     <color name="colorLessGreen">#eef7f2</color>
+    <color name="background">#EAEBFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="progressbackground">#FFC47E</color>
+    <color name="meal">#233D4D</color>
+    <color name="pink_300">#F065B8</color>
+    <color name="pink_50">#FCD6EC</color>
+    <color name="teal_a200">#63EEDA</color>
+    <color name="cyan_50">#D8FBF5</color>
+    <color name="deep_purple_300">#9B5CE5</color>
+    <color name="deep_purple_50">#E6D5F8</color>
+    <color name="light_blue_a400">#03BBF8</color>
+    <color name="light_blue_100">#BDEEFE</color>
+    <color name="black">#FF000000</color>
+    <color name="backgroundcolor">#f6f6f8</color>
+    <color name="blue">#0000E7</color>
+    <color name="card">#273152</color>
+
+
 </resources>

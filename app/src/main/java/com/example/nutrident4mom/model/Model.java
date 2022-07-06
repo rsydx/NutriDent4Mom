@@ -1,7 +1,5 @@
 package com.example.nutrident4mom.model;
 
-
-
 public class Model
 {
     String course,email,name,purl,nameLower;
@@ -16,6 +14,10 @@ public class Model
         this.nameLower = nameLower;
 
         this.purl = purl;
+    }
+
+    public Model(String imageUrl){
+        this.purl = imageUrl;
     }
 
     public String getNameLower() {

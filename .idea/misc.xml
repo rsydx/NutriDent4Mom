@@ -3,27 +3,72 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable-v24/search_view_bg.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/background_left.xml" value="0.158" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/background_right.xml" value="0.158" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/bg_box_rounded.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/big_box_rounded.xml" value="0.2755208333333333" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.2537037037037037" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/breakfast.xml" value="0.2755208333333333" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/btn_circle_shape.xml" value="0.2537037037037037" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/button_bg.xml" value="0.1555" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/card_shape.xml" value="0.15" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/dinner.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/ic_add.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/ic_add_background.xml" value="0.207" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1555" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/ic_breakfast.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/ic_lunch.xml" value="0.15" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/icon_navigation_home.xml" value="0.2537037037037037" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/lunch.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/rounded_corner_progress_bar.xml" value="0.1555" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/search_view_bg.xml" value="0.2755208333333333" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/testing.xml" value="0.1555" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/drawable/toggle_widget_background.xml" value="0.1555" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_add_content.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_add_video.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_admin.xml" value="0.17255434782608695" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_content.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_food_search.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_goal_calculator.xml" value="0.18704710144927536" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_level_dropdown_item.xml" value="0.18704710144927536" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_logger_reset.xml" value="0.223731884057971" />
-        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_logger_signin.xml" value="0.223731884057971" />
-        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_logger_signup.xml" value="0.223731884057971" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_logger_signin.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_logger_signup.xml" value="0.2" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_message.xml" value="0.24456521739130435" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_picked_food.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_report.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_update_goal.xml" value="0.259375" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_user_info_1.xml" value="0.264" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/activity_user_info_2.xml" value="0.223731884057971" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/chat_item.xml" value="0.24456521739130435" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/chat_item_right.xml" value="0.24456521739130435" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/content_content.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/content_update_goal.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/food_item.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/food_item2.xml" value="0.18704710144927536" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_add_nutrition.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_chat.xml" value="0.24456521739130435" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_chat_child.xml" value="0.24456521739130435" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_decfragment.xml" value="0.259375" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_descfragment.xml" value="0.2578125" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_educational_content.xml" value="0.259375" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_first.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_goal_calculator.xml" value="0.18704710144927536" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
-        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_recfragment.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_recfragment.xml" value="0.2" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_second.xml" value="0.259375" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_setting.xml" value="0.259375" />
-        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/singlerow_design.xml" value="0.1" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/fragment_video.xml" value="0.259375" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/row_video.xml" value="0.4839650145772595" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/shape_selected.xml" value="0.18704710144927536" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/singlerow_design.xml" value="0.264" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/layout/user_item.xml" value="0.24456521739130435" />
+        <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/menu/menu_admin.xml" value="0.259375" />
         <entry key="..\:/android studio app/NutriDent4Mom/app/src/main/res/menu/menu_main.xml" value="0.259375" />
       </map>
     </option>

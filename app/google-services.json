@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "577100223110",
-    "firebase_url": "https://fir-auth-461eb-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "fir-auth-461eb",
-    "storage_bucket": "fir-auth-461eb.appspot.com"
+    "project_number": "772866715036",
+    "firebase_url": "https://final-year-project-6ebc5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "final-year-project-6ebc5",
+    "storage_bucket": "final-year-project-6ebc5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:577100223110:android:e7210b01213b6f9cee3707",
+        "mobilesdk_app_id": "1:772866715036:android:85e9558e9c56d0dd7eec59",
         "android_client_info": {
           "package_name": "com.example.nutrident4mom"
         }
       },
       "oauth_client": [
         {
-          "client_id": "577100223110-qllu4hipfsqjb7nml2cbuehdjueig8l8.apps.googleusercontent.com",
+          "client_id": "772866715036-ofqt21epp5k5mkcr0j8d81lp6knsc4tl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBXTJtUGNetNCGgeVqOR80joV8kkDjzonY"
+          "current_key": "AIzaSyCwUUtJBIpxO_zu5C8W8KSXybEnvkknesM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "577100223110-qllu4hipfsqjb7nml2cbuehdjueig8l8.apps.googleusercontent.com",
+              "client_id": "772866715036-ofqt21epp5k5mkcr0j8d81lp6knsc4tl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

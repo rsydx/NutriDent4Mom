@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:elevation="20dp"
-    app:cardBackgroundColor="#FFFFFF"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="10dp"
     app:cardUseCompatPadding="true">
 
@@ -23,12 +23,15 @@
 
         <TextView
             android:id="@+id/nametext"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
             android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/btnDelete"
             android:layout_toRightOf="@+id/img1"
-            android:fontFamily="@font/ubuntu_medium"
+            android:fontFamily="@font/roboto"
+            android:letterSpacing=".05"
             android:text="This is Demo Name"
             android:textColor="@android:color/black"
             android:textSize="13sp"
@@ -42,12 +45,19 @@
             android:layout_marginLeft="14dp"
             android:layout_marginTop="8dp"
             android:layout_toRightOf="@+id/img1"
-            android:fontFamily="@font/ubuntu_light"
+            android:fontFamily="@font/roboto_light"
             android:maxLength="100"
             android:text="This is Demo Name"
             android:textColor="@android:color/black"
             android:textSize="12sp" />
-
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/btnDelete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/remove"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
 
